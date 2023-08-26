@@ -1,0 +1,17 @@
+{
+  "name": "dummy",
+  "version": "1.0.0",
+  "description": "Dummy app for dummies",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "cd Test2 && yarn dev",
+    "build": "cd Test2 && yarn build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react-router-dom": "^6.15.0"
+  }
+}

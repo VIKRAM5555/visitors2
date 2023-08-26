@@ -215,3 +215,5 @@ app_license = "MIT"
 # auth_hooks = [
 #	"dummy.auth.validate"
 # ]
+
+website_route_rules = [{'from_route': '/test9/<path:app_path>', 'to_route': 'test9'}, {'from_route': '/Test5/<path:app_path>', 'to_route': 'Test5'}, {'from_route': '/Test2/<path:app_path>', 'to_route': 'Test2'}, {'from_route': '/Test/<path:app_path>', 'to_route': 'Test'},]
